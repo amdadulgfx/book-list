@@ -1,0 +1,1 @@
+export * as bookService from 'src/modules/book/book.service'

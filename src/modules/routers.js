@@ -1,0 +1,1 @@
+export { bookRouter } from "src/modules/book/book.router"

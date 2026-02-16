@@ -1,0 +1,24 @@
+{
+  "name": "booklist",
+  "version": "1.0.0",
+  "description": "Booklist API",
+  "main": "src/server.js",
+  "scripts": {
+    "build": "babel src -d build --copy-files",
+    "dev": "nodemon -e js --exec babel-node src/server.js",
+    "start": "node build/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "nodemon": "^3.0.1"
+  }
+}

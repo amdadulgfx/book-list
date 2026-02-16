@@ -1,0 +1,1 @@
+export { bookController } from "src/modules/book/book.controller"
